@@ -1,0 +1,11 @@
+// export const inputLabelName = 'Buscar productos, marcas y má';
+// export const buttonSearch = 'div.nav-icon-search';
+// export const divResult = 'Autos, Motos y OtrosAutos y';
+export const inputNamePlaceHolder = 'Tu nombre';
+export const inputLastName = 'input-lastName';
+export const inputEmailPlaceholder = 'tu@correo.com';
+export const inputUsername = '//input[@id="username"]';
+export const inputNameLocation = '//*[@id="firstName"]';
+export const inputRegisterLocation = '//*[@id="btnRegister"]';
+export const inputpasswordLocation = '//input[@id="password"]';
+export const formSuccess = '//h1[@id="title"][contains(text(),"Registro exitoso")]';
