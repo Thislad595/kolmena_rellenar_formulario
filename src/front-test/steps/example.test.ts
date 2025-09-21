@@ -44,8 +44,8 @@ When('El usuario llena el campo Apellido con {string}', async function (Apellido
   // const nombre = this.parameters.name;
   for (const page of pages) {
     const input = page.getByTestId(inputLastName);
-    await input.click(); // Opcional: enfoca el campo
-    await input.fill(Apellido); // Rellena con el valor proporcionado
+    await input.click(); 
+    await input.fill(Apellido); 
     console.log(`Apellido ingresado: ${Apellido}`);
   }
 });
@@ -92,8 +92,8 @@ When('El usuario especifica su nickname {string}', async function (string) {
   for (const page of pages) {
     const input = page.locator(inputUsername);
     console.log(input)
-    await input.click(); // Opcional: enfoca el campo
-    await input.fill(string); // Rellena con el valor proporcionado
+    await input.click(); 
+    await input.fill(string); 
   }
 });
 
